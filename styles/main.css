@@ -1,0 +1,35 @@
+header {
+  background: 555;
+  font-family: Didot, "Century Gothic", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+h4 {
+  font-family: Helvetica, sans-serif;
+  font-size: 7px;
+}
+
+p {
+  font-family: Tahoma, sans-serif;
+  font-size: 9px;
+}
+
+footer {
+  font-size: 6px;
+  color: yellow;
+}
