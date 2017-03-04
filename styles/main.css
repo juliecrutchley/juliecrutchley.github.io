@@ -1,35 +1,32 @@
 header {
   background: 555;
-  font-family: Didot, "Century Gothic", serif;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-body {
-  font-family: Tahoma, sans-serif;
+  font-family: Georgia, serif;
+  font-weight: strong;
+  font-size: 300px;
 }
 
 h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 200px;
+  font-weight: bold;
 }
 
 h2 {
   font-family: Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 100px;
 }
 
-h4 {
+h3 {
   font-family: Helvetica, sans-serif;
-  font-size: 7px;
+  font-size: 60px;
 }
 
 p {
   font-family: Tahoma, sans-serif;
-  font-size: 9px;
+  font-size: 40px;
 }
 
 footer {
-  font-size: 6px;
+  font-size: 20px;
   color: yellow;
 }
