@@ -1,32 +1,137 @@
+
+body {
+  margin: 0px 20px;
+  font-family: "CenturyGothic", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 header {
-  background: 555;
-  font-family: Georgia;
-  font-weight: strong;
-  font-size: 100px;
+  border: thin solid black;
+  background: Linen;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  background: WhiteSmoke;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  border: thin solid black;
+  background: AliceBlue;
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
 }
 
 h1 {
-  font-family: Helvetica, sans-serif;
-  font-size: 30px;
-  font-weight: bold;
+  font-family: Garamond, serif;
+  font-size: 60px;
 }
 
 h2 {
-  font-family: Helvetica, sans-serif;
+  font-family: Optima, serif;
   font-size: 20px;
 }
 
 h3 {
-  font-family: Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+h4 {
+  font-size: 10px;
 }
 
 p {
-  font-family: Tahoma, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
+}
+
+a {
+  color: black
+}
+
+ul li {
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 12px;
+}
+
+.col {
+  float: left;
+  background: WhiteSmoke;
+  border: thin solid black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+  margin: 5px;
+  width: 29%;
+  height: 150px;
+  background-size: cover;
+}
+
+.col1 {
+  background: url(../styles/media/pic-reflect.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.col2 {
+  background: url(../styles/media/pic-time.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.col3 {
+  background: url(../styles/media/pic-dom.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.homepagebottom {
+  text-align: center;
+  width: 100%
+  height: 500px;
+}
+
+.homepageimage {
+  text-align: center;
+  width: 80%;
+  height: 80%
+}
+
+.dom-analogy {
+  display: flex;
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 12px;
+}
+
+.dom-analogy-image {
+  width: 20%;
+}
+
+.dom-analogy-text {
+  width: 80%;
 }
 
 footer {
-  font-size: 5px;
-  color: yellow;
+  clear: both;
+  text-align: left;
+  margin-top: 40px;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  text: black;
 }
