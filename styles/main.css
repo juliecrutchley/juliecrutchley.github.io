@@ -77,28 +77,24 @@ ul li {
 }
 
 .col1 {
-  background: url(../styles/media/pic-reflect.png);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .col2 {
-  background: url(../styles/media/pic-time.png);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .col3 {
-  background: url(../styles/media/pic-dom.png);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .col4 {
-  background: url(../styles/media/pic-dom2.jpg);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
