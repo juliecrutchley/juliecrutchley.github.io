@@ -63,6 +63,11 @@ background: grey;
   background: silver;
 }
 
+.footer-pic {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
 
 /* Blog Pages
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
