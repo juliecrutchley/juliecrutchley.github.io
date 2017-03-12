@@ -52,6 +52,10 @@ padding: 3rem 0rem;
 background: grey;
 }
 
+.index a {
+  color: black;
+  text-decoration: none;
+}
 
 /* Blog Pages
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
