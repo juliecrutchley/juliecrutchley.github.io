@@ -1,4 +1,6 @@
 
+/* General Text etc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1 {
   font-family: Didot serif;
   font-size: 5rem;
@@ -22,12 +24,13 @@ h4 {
   font-size: 0.5rem;
 }
 
-.blog-pic {
-  position: relative;
-  max-width: 100%;
-  max-height: 100%;
+p {
+  font-family: Georgia, sans-serif;
 }
 
+
+/* Home Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .index-header {
 background: AliceBlue;
 text-align: center;
@@ -39,12 +42,42 @@ padding: 3rem 0rem;
   max-width: 100px;
 }
 
-.index-content {
-background: ;
+.blog-pic {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .index-footer {
 background: grey;
+}
+
+
+/* Blog Pages
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.blog-header {
+background: AliceBlue;
+text-align: left;
+padding: 3rem 0rem;
+}
+
+.blog-content {
+  margin: 4rem 3rem;
+}
+
+.blog-footer {
+  margin: 4rem 3rem;
+}
+
+.blog-content ul {
+  margin-top: 0.5rem;
+}
+
+.blog-content ul li {
+  font-family: Georgia, sans-serif;
+  padding: 0rem;
+  margin: 0.5rem;
+
 }
 
 /* Primary Nav Menu

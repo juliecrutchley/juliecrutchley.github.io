@@ -1,63 +1,99 @@
 <!DOCTYPE html>
 <html>
+
+<!--START HEAD DETAILS-->
   <head>
-    <title>Technical Blog Part 1</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  <title>HTML, CSS + DOM - Part 1</title>
+  <meta charset="UTF-8">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+  <link href="../main.css" rel="stylesheet" type="text/css">
   </head>
+  <!--END HEAD DETAILS-->
 
-  <body>
-    <header>
-    <h1>Technical Blog Part 1</h1>
-  </header>
+<!--START BLOG HEADER-->
+  <section class= "blog-header">
+    <div class="container">
+      <div class="row">
+        <div class="eleven columns">
+          <h1 class="blog-heading">HTML, CSS + DOM - Part 1</h1>
+          <h2 class="blog-sub-heading">Posted on Tuesday, 7 March 2017</h2>
+        </div>
+        <div class="one column"><img class="monogram" src="../images/monogram.png">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--END BLOG HEADER-->
 
-  <!-- this is the main nav menu -->
-      <nav>
+<!--START NAVIGATION MENU-->
+  <section class="navigation">
+    <nav class="container primary">
+      <div class="twelve columns">
         <ul>
-          <li><a href="https://juliecrutchley.github.io/index.html">Home</a></li>
-          <li><a href="https://juliecrutchley.github.io/blog.html">Blog</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="../index.html">-HOME-</a></li>
+          <li><a href="#">-ABOUT-</a></li>
+          <li><a href="#">-ARCHIVE-</a>
+            <ul>
+              <li><a href="#">ARCHIVE BLOG 1</a></li>
+              <li><a href="#">ARCHIVE BLOG 2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">-LINKS-</a></li>
+          <li><a href="#">-BLANK-</a></li>
         </ul>
-      </nav>
-  <!-- end of the main nav menu -->
+      </div>
+    </nav>
+  </section>
+<!--END NAVIGATION MENU-->
 
-    <h4>Posted on Tuesday, 7 March 2017</h4>
-
-    <h3>Can you think of an analogy to describe HTML, CSS and the DOM?</h3>
-      <p>Let's use the analogy of an outfit... bear with me and I apologise if this is wrong, the DOM is still unique to me!
+<!--START BLOG CONTENT-->
+  <section class="blog-content">
+    <div class="container">
+      <h3>Can you think of an analogy to describe HTML, CSS and the DOM?</h3>
+      <p>
+        Let's use the analogy of an outfit... bear with me and I apologise if this is wrong, the DOM is still unique to me!
       </p>
-
-
-      <div class="dom-analogy">
-        <div class="dom-analogy-image"><img src="../styles/media/pic-dom.png" alt="Outfit analogy"></div>
-        <div class="dom-analogy-text">The HTML would be <em>the clothing items</em> that make up the outfit, i.e:
-          <ul>
-            <li>dress</li>
-            <li>belt</li>
-            <li>shoes</li>
-          </ul>
-          <p>The CSS would specify what those items will <em>look</em> like), i.e.:
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="two columns"><img class="blog-pic" src="../images/pic-blog-dom.png" alt="Outfit analogy">
+        </div>
+        <div class="ten columns">
+          <p>
+            The <strong>HTML</strong> would be <em>the clothing items</em> that make up the outfit, i.e: dress, belt, shoes.
           </p>
-          <ul>
-            <li>The dress will be yellow and knee length</li>
-            <li>The belt will be blue</li>
-          </ul>
-          <p>The DOM (Document Object Model) would be a drawing of the outfit much like the one to the left.
+          <p>
+            The <strong>CSS</strong> would specify what those items will <em>look</em> like), i.e:<br>
+              - The dress will be yellow and knee length<br>
+              - The belt will be blue
+          </p>
+          <p>
+            The <strong>DOM</strong> (Document Object Model) would be a drawing of the outfit much like the one to the left.
           </p>
         </div>
       </div>
-
-
-    <h3>What is meant by boxifying design?</h3>
-      <p>Everything you see on a webpage is within a box. Boxifying design is the process of breaking down a proposed design into the boxes required and beginning to build the website from there.
+    </div>
+    <div class="container">
+      <h3>What is meant by boxifying design?</h3>
+      <p>
+        Everything you see on a webpage is within a box. Boxifying design is the process of breaking down a proposed design into the boxes required and beginning to build the website from there.
       </p>
-    <h3>What is the box model?</h3>
-      <p>All the HTML content is by default already in boxes. In CSS, the Box Model is a reference to the way of looking at a design element by considering the total box contains margins, borders, padding and then the actual content.<br>By first considering this, you can then apply the correct design rules.
+      <h3>What is the box model?</h3>
+      <p>
+        All the HTML content is by default already in boxes. In CSS, the Box Model is a reference to the way of looking at a design element by considering the total box contains margins, borders, padding and then the actual content.<br>By first considering this, you can then apply the correct design rules.
       </p>
+    </div>
+  </section>
+<!--END BLOG CONTENT-->
 
-    <footer>
+<!--START BLOG FOOTER-->
+  <section class="blog-footer">
+    <div class="container">
       &copy; 2017 Julie Crutchley
-    </footer>
+    </div>
+  </section>
+<!--END BLOG FOOTER-->
 
   </body>
 </html>
