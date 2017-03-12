@@ -57,6 +57,13 @@ background: grey;
   text-decoration: none;
 }
 
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.index-footer {
+  background: silver;
+}
+
+
 /* Blog Pages
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .blog-header {
