@@ -108,9 +108,10 @@ padding: 3rem 0rem;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav.primary ul,
 nav.primary ul li {
-  margin: 0px;
+  margin: 1.5rem 0rem;
   text-align: center;
   font-size: 1.2rem;
+
 }
 
 nav.primary ul li {
