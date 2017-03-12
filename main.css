@@ -61,6 +61,8 @@ background: grey;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .footer {
   max height: 140px;
+  padding-top: 3rem;
+  margin-top: 3rem;
 }
 
 .index-footer {
