@@ -50,21 +50,48 @@
 <!--START BLOG CONTENT-->
   <section class="blog-content">
     <div class="container">
-      <h3>How does Javascript compare to HTML and CSS</h3>
+      <h3>How does Javascript compare to HTML and CSS?</h3>
       <p>
-        TEXT
+        Javascript is also a 'web programming language' like HTML and CSS. However, HTML and CSS are used for structuring content and applying visual styles. Javascript can make websites, applications and games come alive! With Javascript, web pages become responsive to user interaction, e.g. performing a task after an element is clicked.
       </p>
-      <h3>Explain control flow and loops using an example process from everyday life, for example 'wakingup' or 'brushing your teeth'</h3>
+      <h3>Explain control flow and loops using an example process from everyday life</h3>
       <p>
-        TEXT
+        Control flow refers to the way Javascript statements and loops are processed.
+        By using if / else / while statements and loops you can create a controlled flow of processes, defined by logic, to achieve a result.
       </p>
+      <p>
+        To explain, let's use the literal everyday life process of making your toast in the morning:
+      </p>
+      <p class=coding>
+        <strong>WHILE</strong> time=breakfast <strong>AND</strong> (you=hungry1 <strong>OR</strong> you=hungry2),<br>
+        ---><strong>IF</strong> pantry contains bread <strong>AND</strong> best before date = today or later, <br>
+        --->---><strong>IF</strong> you=hungry1, add 1x toast to toaster,<br>
+        --->---><strong>ELSE</strong> add 2x toast to toaster,<br>
+        ---><strong>ELSE</strong> have something else for breakfast
+      </p>
+
       <h3>Explain the difference between accessing data from arrays and objects</h3>
       <p>
-        TEXT
+        Arrays are variables within which we can store several pieces of data, like a list.<br>
+        You can access the items within an array by calling the array with bracket notation. <em>Note arrays use zero-based indexing.</em>
       </p>
+      <p class=coding>myBag = ["glasses", "phone", "mints"];</p>
+      <p class=coding>myBag[2];  //will return "mints"</p>
+      <p>Objects are similar to arrays except instead of using indexes to access their data, you can access their data through their properties using either bracket notation or dot operator.</p>
+      <p class=coding>var myBag = {<br>
+        prop1: "glasses",<br>
+        prop2: "phone",<br>
+        prop3: "mints"<br>
+        };
+      </p>
+      <p class=coding>myBag["prop3"];  //will return "mints"
+      </p>
+      <p class=coding>myBag.prop3;  //will return "mints"
+      </p>
+
       <h3>Explain what functions are and why they are useful</h3>
       <p>
-        TEXT
+        If we have some code we would like to run often, rather than writing the same or similar code every time, we can create a function with a logical name, say "checkIfPrimeNumber" and call it whenever we need. Every time we need to check if a number is a prime, we could call the function with the number as an argument, and get a true or false result.
       </p>
     </div>
   </section>
