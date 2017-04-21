@@ -66,6 +66,10 @@ padding: 3rem 0rem;
   max-height: 100%;
 }
 
+.index-pic {
+  text-align: center;
+}
+
 .index-footer {
 background: grey;
 }
