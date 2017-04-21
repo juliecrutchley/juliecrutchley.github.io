@@ -38,6 +38,9 @@ p.ul.li {
   margin.top: 0rem;
 }
 
+.page-desc {
+  text-align: center;
+}
 /* Home Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .index-header {
@@ -52,6 +55,12 @@ padding: 3rem 0rem;
 }
 
 .blog-pic {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.work-pic {
   position: relative;
   max-width: 100%;
   max-height: 100%;
