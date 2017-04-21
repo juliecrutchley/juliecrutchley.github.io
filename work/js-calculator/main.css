@@ -1,0 +1,98 @@
+
+h1 {
+  font-family: Didot serif;
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-family: Optima;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  color: grey;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-family: Georgia, serif;
+  font-size: 0.5rem;
+}
+
+p {
+  font-family: Georgia, sans-serif;
+  font-size: 1.5rem;
+}
+
+p.coding {
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+p.ul.li {
+  margin.top: 0rem;
+}
+
+button {
+  margin: 1rem;
+}
+
+.index-header {
+background: AliceBlue;
+text-align: center;
+padding: 3rem 0rem;
+}
+
+.monogram {
+  text-align: center;
+  max-width: 100px;
+}
+
+#calculator-container {
+  width: 400px;
+  height: 330px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: darkGrey;
+}
+
+.main-content {
+  margin: 2rem;
+}
+
+input[type=text] {
+  background: white;
+  width: 360px;
+  height: 70px;
+  font-family: Optima;
+  font-size: 40px;
+  margin: 5% auto;
+  border: 3px solid black;
+  border-radius: 6px;
+  text-align: right;
+  }
+
+input[type=button-n] {
+  background: white;
+  border: thin solid black;
+  border-radius: 6px;
+  width: 20%;
+  font-family: Optima;
+  font-size: 20px;
+  margin: 2%;
+  text-align: center;
+}
+
+input[type=button-o] {
+  background: yellow;
+  border: thin solid black;
+  border-radius: 6px;
+  width: 20%;
+  font-family: Optima;
+  font-size: 20px;
+  margin: 2%;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<meta charset="UTF-8">
+<!-- Normalise CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- My CSS -->
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <section class= "index-header">
+    <div class="container">
+      <div class="row" "col-xs-12">
+        <h1 class="index-heading">Calculator</h1>
+        <h2 class="index-sub-heading">1 + 1 = Fun</h2>
+      </div>
+      <div class="col-xs-12"><img class="monogram" src="images/monogram.png">
+      </div>
+    </div>
+  </section>
+
+  <section class= "main-content">
+    <div id="calculator-container" class="container">
+      <form name="calculator">
+        <input type="text" name="result">
+        <br />
+        <input type="button-n" value=" 7 " onclick="calculator.result.value += '7'"/>
+        <input type="button-n" value=" 8 " onclick="calculator.result.value += '8'"/>
+        <input type="button-n" value=" 9 " onclick="calculator.result.value += '9'"/>
+        <input type="button-o" value=" % " onclick="calculator.result.value += '/'"/>
+        <br />
+        <input type="button-n" value=" 4 " onclick="calculator.result.value += '4'"/>
+        <input type="button-n" value=" 5 " onclick="calculator.result.value += '5'"/>
+        <input type="button-n" value=" 6 " onclick="calculator.result.value += '6'"/>
+        <input type="button-o" value=" x " onclick="calculator.result.value += '*'"/>
+        <br />
+        <input type="button-n" value=" 1 " onclick="calculator.result.value += '1'"/>
+        <input type="button-n" value=" 2 " onclick="calculator.result.value += '2'"/>
+        <input type="button-n" value=" 3 " onclick="calculator.result.value += '3'"/>
+        <input type="button-o" value=" + " onclick="calculator.result.value += '+'">
+        <br />
+        <input type="button-n" value=" 0 " onclick="calculator.result.value += '0'"/>
+        <input type="button-o" value=" = " onclick="calculator.result.value = eval(calculator.result.value)"/>
+        <input type="button-o" value=" C " onclick="calculator.result.value = ''" />
+        <input type="button-o" value=" - " onclick="calculator.result.value += '-'">
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+
+/* General Text etc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1 {
+  font-family: Didot serif;
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-family: Optima;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  color: grey;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-family: Georgia, serif;
+  font-size: 0.5rem;
+}
+
+p {
+  font-family: Georgia, sans-serif;
+  font-size: 1.5rem;
+}
+
+p.coding {
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+p.ul.li {
+  margin.top: 0rem;
+}
+
+#maori {
+  font-family: Courier;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+#english {
+  font-family: Optima;
+  font-size: 1.5rem;
+  text-align: center;
+  }
+
+#get-proverb-button {
+  margin: 2rem;
+  text-align: center;
+}
+/* Home Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.index-header {
+background: AliceBlue;
+text-align: center;
+padding: 3rem 0rem;
+}
+
+.monogram {
+  text-align: center;
+  max-width: 100px;
+}
+
+.blog-pic {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.index-footer {
+background: grey;
+}
+
+.index a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+  max height: 140px;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.index-footer {
+  background: silver;
+}
+
+.footer-pic {
+  position: relative;
+  max-width: 100%;
+  max-height: 140px;
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+
+/* Blog Pages
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.blog-header {
+background: AliceBlue;
+text-align: left;
+padding: 3rem 0rem;
+}
+
+.blog-content {
+  margin: 4rem 3rem;
+}
+
+.blog-footer {
+  margin: 4rem 3rem;
+}
+
+.blog-content ul {
+  margin-top: 0.5rem;
+}
+
+.blog-content ul li {
+  font-family: Georgia, sans-serif;
+  padding: 0rem;
+  margin: 0.5rem;
+
+}
+
+/* Primary Nav Menu
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav.primary ul,
+nav.primary ul li {
+  margin: 1.5rem 0rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+nav.primary ul li {
+  display: inline;
+  position: relative;
+  text-align: center;
+}
+
+nav.primary ul li a {
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+}
+
+nav.primary ul li a:hover {
+  background: pink; }
+
+nav.primary ul li:hover ul {
+  height: auto;
+  overflow: auto;
+}
+
+nav.primary ul ul {
+  position: absolute;
+  z-index: 999;
+  background: AliceBlue;
+  min-width: 100%;
+  height: 0px;
+  overflow: hidden;
+}
+
+nav.primary ul ul li {
+  float: none;
+}
+
+nav.primary ul ul li a {
+  display: block;
+  text-transform: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+nav.primary ul li:hover > a {
+  background: Gainsboro;
+}
